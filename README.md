@@ -21,8 +21,9 @@ działaniem
 
 
 # Wykład 3 
+## LoRa
 
-
+## TTN a LoRaWaN 
 
 
 
