@@ -2,38 +2,88 @@
 
 # Wykład 1
 
-## Prawa robotyki 
+## Prawa robotyki
 ### Assimov
 1. Robot nie może skrzywdzić człowieka, ani przez zaniechanie działania dopuścić, aby człowiek doznał krzywdy.
 2. Robot musi być posłuszny rozkazom człowieka, chyba że stoją one w sprzeczności z Pierwszym Prawem.
 3. Robot musi chronić samego siebie, o ile tylko nie stoi to w sprzeczności z Pierwszym lub Drugim Prawem.
 4. Robot nie może skrzywdzić ludzkości, lub poprzez zaniechanie działania doprowadzić do uszczerbku dla ludzkości.
 ### Inne
-Robot musi być w stanie wytłumaczyć proces decyzyjny kierujący jego 
+Robot musi być w stanie wytłumaczyć proces decyzyjny kierujący jego
 działaniem
 
 
 # Wykład 2
 
-## Różnice pomiędzy systemem autonomicznym a automatycznym 
+## Różnice pomiędzy systemem autonomicznym a automatycznym
+|automatyczny|autonomiczny|
+|---|---|
+|deterministyczny | Niedeterministyczny
+|przewidywalny | ograniczona przewidywalność
+|mała adaptacyjność | duża percepcja
+|ograniczona percepcja | duża adaptacyjność
+|specyficzne warunki pracy | zbieranie doświadczenia
 
-## Poziomy automnomiczności 
 
 
-# Wykład 3 
+## Poziomy automnomiczności
 
-## Czujniki 
+![](./zdj%C4%99cia/poziomy.png)
+
+# Wykład 3
+
+## Czujniki
 - LIDAR
 - Radar
 - Ultrasonic
 - Kamery
+![czujniki](./zdj%C4%99cia/rodzaje-skanerow.png)
+
 ## Przekazywanie danych statystyki
+![Statystyki](./zdj%C4%99cia/statystyki-dane.png)
+
+## Role czujników
+![Role](./zdj%C4%99cia/roje-czujnikow.png)
+
+## Jakie są wyzwania w przetwarzaniu danych
+- ogromna ilość danych
+- komunikacja
+- przetwarzanie
+- przechowywanie
+- bezpieczeństwo
+- zarządzanie infrastrukturą
+- koszt energetyczny
 
 
-## Przejście z technologii 4G do 5G
-
-# Wykład 4
+# Wykład 4, 5, 6
 ## LoRa
+to technologia komunikacyjna używana w sieciach IoT (Internetu rzeczy), umożliwiająca przesyłanie danych na duże odległości przy minimalnym zużyciu energii.  Infrastruktura LoRa składa się z bramek (gateway) umieszczonych na różnych lokalizacjach, które odbierają dane z urządzeń LoRa i przekazują je do chmury lub serwera aplikacyjnego, gdzie dane są przetwarzane i analizowane.
+### Cechy
+- **Modulacja**: LoRa korzysta z modulacji Chirp Spread Spectrum (CSS). Dane są kodowane w postaci długich chirpów radiowych, które są odporniejsze na zakłócenia i mają większy zasięg w porównaniu z innymi technologiami komunikacyjnymi.
+- **Zasięg**: Jedną z głównych zalet LoRa jest jego zdolność do przesyłania danych na duże odległości. Może sięgać kilkunastu kilometrów w warunkach miejskich i nawet kilkudziesięciu kilometrów w warunkach bardziej otwartych.
+
+- **Niska moc i oszczędność energii**: Urządzenia LoRa zużywają niewielką ilość energii, co jest kluczowe dla urządzeń IoT, które często działają na bateriach. Dzięki temu możliwe jest długotrwałe działanie bez konieczności częstej wymiany baterii.
+
+- **Szeroki zakres zastosowań**: LoRa jest wykorzystywane w różnych obszarach, takich jak monitorowanie środowiska, inteligentne rolnictwo, zarządzanie smart city, systemy alarmowe, monitorowanie zdrowia, logistyka i wiele innych.
+
+## Bluetooth low energy
+Blueetoth który przesyła dane z niskim kosztem energii.
+Ma krótszy zasięg niż tradycyjny bluetooth.
+
+## Cechy niskich kosztów
+- przesyłanie mniejszych pakietów danych niż w przypadku zwykłego bluetootha
+- mały czas aktywności radiowej, są aktywowane tylko w momencie odbierania lub wysyłania danych
+- ogłasza się bezpołączeniowo aby inne urządzenia wiedziały że istnieje, dzięki czemu nie musi być cały czas aktywny.
+- wykorzystywane technologii kompresji w celu optymalizacji transmisji
+- struktura urządzeń korzystających z tego protokołu
+
+## Bluetooth mesh
+  jest to rozszerzenie BLE które umożliwia komunikację w sieciach typu mesh, kdzie każde urządzenie może bezpośrednio komunikować się z innymi urządzeniami w sieci zamiast polegać tylko na centralnym punkcie zarządzającym.
+## Cechy BLE MESH
+- skalowalność (łatwo można dodać nowe urządzenia)
+- mesh (bezpośrednia komunikacja, większa niezawodnosć)
+- niskie zużycie energii (powody jak w BLE)
+
 ## Cechy technologii radiowych IOT
   -  **Zasięg**: Technologie radiowe IoT różnią się pod względem zasięgu transmisji danych. Niektóre z nich, jak na przykład LoRa, Sigfox czy NB-IoT, oferują większy zasięg w porównaniu do tradycyjnych sieci bezprzewodowych, co pozwala na komunikację na większe odległości, nawet kilkudziesięciu kilometrów w warunkach otwartych.
 
@@ -57,4 +107,11 @@ Komentarz: Rzucił dość ciekawym komentarzem na temat pytań jakie mogą się 
 - ile dziennie danych jest przesyłanych z pojazdu autonomicznego
 - Jak bluetooth unika kolizji
 - Skąd się wziął znaczek bluetooth
+  ![nordic h i nordic b](./zdj%C4%99cia/blueetooth.png)
 - Czy wykorzystanie jednego rodzaju czujników jest wystarczające do utworzenia samochodu autonomicznego?
+- Jak można unikać kolizję w protokołach?
+  - random access
+  - cykliczny okres wysyłania sygnału
+  - Dodawanie dodatkowego przekaźnika do którego się urządzenia bezpośrednio komunikują
+  - Wyznaczanie momentu nadawania
+  - wykorzystywanie z góry określonych kanałów do rozgłaszania się i do przesyłania danych
