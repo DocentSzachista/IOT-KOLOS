@@ -27,7 +27,12 @@ działaniem
 
 
 ## Poziomy automnomiczności
-
+0. brak jakiejkolwiek automatyzacji
+1. pomoc kierowcy - tempomat, wspomaganie kierownicy
+2. częściowa automatyzacja jazdy - możliwość kierowania sterowania i prędkością przez samochód
+3. warunkowa automatyzacja jazdy - auto może samo podejmować decyzje lecz w sytuacjach awaryjnych kierowca ma przejąć ster
+4. wysoki poziom autonomii jazdy - auto może interweniować w sytuacjach awaryjnych.człowiek jest tylko dodatkiem ale może przejmowąc ster
+5. Całkowity poziom autonomii
 ![](./zdj%C4%99cia/poziomy.png)
 
 # Wykład 3
