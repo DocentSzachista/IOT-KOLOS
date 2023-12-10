@@ -110,6 +110,7 @@ Ma krótszy zasięg niż tradycyjny bluetooth.
 # Potencjalne pytania na kolosa
 Komentarz: Rzucił dość ciekawym komentarzem na temat pytań jakie mogą się pojawić na kolosie
 - ile dziennie danych jest przesyłanych z pojazdu autonomicznego
+  4000 GB dziennie 
 - Jak bluetooth unika kolizji
 - Skąd się wziął znaczek bluetooth
   ![nordic h i nordic b](./zdj%C4%99cia/blueetooth.png)
