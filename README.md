@@ -66,6 +66,15 @@ działaniem
 # Wykład 4, 5, 6
 ## LoRa
 to technologia komunikacyjna używana w sieciach IoT (Internetu rzeczy), umożliwiająca przesyłanie danych na duże odległości przy minimalnym zużyciu energii.  Infrastruktura LoRa składa się z bramek (gateway) umieszczonych na różnych lokalizacjach, które odbierają dane z urządzeń LoRa i przekazują je do chmury lub serwera aplikacyjnego, gdzie dane są przetwarzane i analizowane.
+### Struktura LORA
+- Urządzenia końcowe (end device) -Czujniki lub siłowniki wysyłają bezprzewodowe komunikaty z modulacją LoRa do bramek lub odbierają bezprzewodowo komunikaty z powrotem z bramek.
+
+- Bramy (Gateway) - Specjalistyczne urządzenia, które odbierają wiadomości od urządzeń końcowych i przekazują je do serwera sieciowego, a także przekazują wiadomości z serwera sieciowego do urządzeń końcowych.
+
+- Serwer sieciowy - Oprogramowanie działające na serwerze, które zarządza całą siecią. Nazywany również LoRaWAN Network Server/LNS lub po prostu oprogramowaniem sieciowym.
+
+- Serwery aplikacji - Oprogramowanie działające na serwerze, które jest odpowiedzialne za bezpieczne przetwarzanie danych aplikacji
+
 ### Cechy
 - **Modulacja**: LoRa korzysta z modulacji Chirp Spread Spectrum (CSS). Dane są kodowane w postaci długich chirpów radiowych, które są odporniejsze na zakłócenia i mają większy zasięg w porównaniu z innymi technologiami komunikacyjnymi.
 - **Zasięg**: Jedną z głównych zalet LoRa jest jego zdolność do przesyłania danych na duże odległości. Może sięgać kilkunastu kilometrów w warunkach miejskich i nawet kilkudziesięciu kilometrów w warunkach bardziej otwartych.
