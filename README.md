@@ -122,11 +122,14 @@ Ma krótszy zasięg niż tradycyjny bluetooth.
 # Potencjalne pytania na kolosa
 Komentarz: Rzucił dość ciekawym komentarzem na temat pytań jakie mogą się pojawić na kolosie
 - ile dziennie danych jest przesyłanych z pojazdu autonomicznego
-  4000 GB dziennie 
+
+   4000 GB dziennie 
 - Jak bluetooth unika kolizji
 - Skąd się wziął znaczek bluetooth
   ![nordic h i nordic b](./zdj%C4%99cia/blueetooth.png)
+
 - Czy wykorzystanie jednego rodzaju czujników jest wystarczające do utworzenia samochodu autonomicznego?
+
   Zaleca się aby korzystać z wielu różnych czujników podczas tworzenia auta autonomicznego. Każdy z czujników ma swoje wady, które mogą zostać uzupełnione przez inny zestaw czujników.
   Nie każda firma się do tego stosuje, chociażby Tesla, w której główną rolę przy autonomiczności pojazdu odgrywają kamery wizyjne. 
 - Jak można unikać kolizję w protokołach?
