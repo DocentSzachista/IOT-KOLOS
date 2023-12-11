@@ -38,10 +38,13 @@ działaniem
 # Wykład 3
 
 ## Czujniki
-- LIDAR
-- Radar
-- Ultrasonic
-- Kamery
+- Czujniki wizyjne (kamery): Są to kamery wizyjne, które rejestrują obraz z otoczenia pojazdu. Wykorzystując technologie takie jak rozpoznawanie obrazu i głębi, pomagają w rozpoznawaniu znaków drogowych, pojazdów, pieszych i innych obiektów na trasie.
+
+- Czujniki radarowe: Radar jest wykorzystywany do wykrywania obiektów na drodze poprzez emisję fal elektromagnetycznych i analizę ich odbicia. Pozwala to na określenie odległości, prędkości i kierunku ruchu innych pojazdów czy przeszkód.
+
+- Czujniki ultradźwiękowe: Czujniki te wykorzystują fale ultradźwiękowe do pomiaru odległości między pojazdem a innymi obiektami. Stosowane są najczęściej do pomiaru odległości przy parkowaniu lub manewrowaniu pojazdem w ciasnych przestrzeniach.
+
+- Czujniki laserowe (LiDAR): LiDAR (Light Detection and Ranging) generuje trójwymiarową mapę otoczenia pojazdu poprzez emisję laserowego promienia i analizę jego odbicia od otaczających obiektów. Zapewnia dokładne dane dotyczące odległości i kształtu obiektów.
 ![czujniki](./zdj%C4%99cia/rodzaje-skanerow.png)
 
 ## Przekazywanie danych statystyki
