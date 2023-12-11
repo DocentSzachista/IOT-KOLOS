@@ -127,6 +127,8 @@ Komentarz: Rzucił dość ciekawym komentarzem na temat pytań jakie mogą się 
 - Skąd się wziął znaczek bluetooth
   ![nordic h i nordic b](./zdj%C4%99cia/blueetooth.png)
 - Czy wykorzystanie jednego rodzaju czujników jest wystarczające do utworzenia samochodu autonomicznego?
+  Zaleca się aby korzystać z wielu różnych czujników podczas tworzenia auta autonomicznego. Każdy z czujników ma swoje wady, które mogą zostać uzupełnione przez inny zestaw czujników.
+  Nie każda firma się do tego stosuje, chociażby Tesla, w której główną rolę przy autonomiczności pojazdu odgrywają kamery wizyjne. 
 - Jak można unikać kolizję w protokołach?
   - random access
   - cykliczny okres wysyłania sygnału
