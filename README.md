@@ -125,13 +125,14 @@ Komentarz: Rzucił dość ciekawym komentarzem na temat pytań jakie mogą się 
 
    4000 GB dziennie 
 - Jak bluetooth unika kolizji
+  - losowy czas dodawany do ADV. INTERVAL,
+  - procedura „back-off” przy Scan Request,
+  - frequency hopping w trakcie połączenia
 - Skąd się wziął znaczek bluetooth
   ![nordic h i nordic b](./zdj%C4%99cia/blueetooth.png)
 
 - Czy wykorzystanie jednego rodzaju czujników jest wystarczające do utworzenia samochodu autonomicznego?
-  - losowy czas dodawany do ADV. INTERVAL,
-  - procedura „back-off” przy Scan Request,
-  - frequency hopping w trakcie połączenia
+
 
   Zaleca się aby korzystać z wielu różnych czujników podczas tworzenia auta autonomicznego. Każdy z czujników ma swoje wady, które mogą zostać uzupełnione przez inny zestaw czujników.
   Nie każda firma się do tego stosuje, chociażby Tesla, w której główną rolę przy autonomiczności pojazdu odgrywają kamery wizyjne. 
